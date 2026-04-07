@@ -8,7 +8,8 @@
     "start": "next start",
     "lint": "eslint",
     "export": "next export",
-    "deploy": "next build && gh-pages -d out"
+    "predeploy": "next build && next export",
+    "deploy": "gh-pages -d out -r https://github.com/Ashley-A7/ashley-a7.github.io.git" 
   },
   "dependencies": {
     "lucide-react": "^1.7.0",
@@ -24,6 +25,6 @@
     "eslint": "^9",
     "eslint-config-next": "16.2.2",
     "tailwindcss": "^4",
-    "typescript": "^5.9.3"
+    "typescript": "^6.0.2"
   }
 }
