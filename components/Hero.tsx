@@ -1,6 +1,6 @@
 export default function Hero() {
   return (
-    <section className="flex-grow px-12 py-16 max-w-6xl mx-auto bg-[#FDF5E6] text-[#1A1A1A] font-sans">
+    <section className="flex-grow px-12 py-12 max-w-6xl mx-auto bg-[#FDF5E6] text-[#1A1A1A] font-sans">
       {/* Small subtitle */}
       <p className="uppercase text-xs text-[#555555] tracking-widest mb-2">
             Creative Application · COSSETTE · 2026
@@ -13,8 +13,8 @@ export default function Hero() {
 
       {/* Role subtitle */}
         <h2 className="max-w-md text-3xl italic font-light text-[#777777] mb-8">
-              Introducing the candidate
-              turning concepts into impactful digital solutions.
+              Introducing the candidate 
+              that turns concepts into impactful digital solutions.
       </h2>
 
       {/* Description */}

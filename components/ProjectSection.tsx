@@ -6,7 +6,7 @@ import { projects } from "../data/projects";
 export default function Projects() {
     return (
         <section
-            className="bg-[#FDF5E6] text-[#1A1A1A] px-4 sm:px-6 md:px-12 py-10 md:py-12"
+            className="max-w-6xl bg-[#FDF5E6] text-[#1A1A1A] px-4 sm:px-6 md:px-12 py-10 md:py-12"
             id="work"
         >
             {/* Header */}
