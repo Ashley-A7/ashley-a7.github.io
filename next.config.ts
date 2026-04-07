@@ -1,7 +1,12 @@
-import type { NextConfig } from "next";
+// next.config.js
+const isProd = process.env.NODE_ENV === 'production';
 
-const nextConfig: NextConfig = {
-  /* config options here */
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+    output: 'export',                // Enables static HTML export
+    basePath: isProd ? '/portfolio' : '',  // Repo name for GitHub Pages
+    assetPrefix: isProd ? '/portfolio/' : '',
+    trailingSlash: true,             // Needed for GitHub Pages folder structure
 };
 
-export default nextConfig;
+module.exports = nextConfig;
