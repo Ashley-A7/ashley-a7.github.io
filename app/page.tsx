@@ -18,7 +18,7 @@ export default function Home() {
                 <ProjectSection />
                 <About />
                 <SkillSection />
-                <EDI/>
+                {/* <EDI/> */}
                 <Contact />
 
             </main>

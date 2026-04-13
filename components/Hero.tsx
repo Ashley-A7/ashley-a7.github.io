@@ -3,7 +3,7 @@ export default function Hero() {
     <section className="flex-grow px-12 py-12 max-w-6xl mx-auto bg-[#FDF5E6] text-[#1A1A1A] font-sans">
       {/* Small subtitle */}
       <p className="uppercase text-xs text-[#555555] tracking-widest mb-2">
-            Creative Application · COSSETTE · 2026
+            Application · 2026
       </p>
 
       {/* Main name */}
@@ -19,7 +19,7 @@ export default function Hero() {
 
       {/* Description */}
       <p className="max-w-lg text-base text-[#333333] mb-8">
-              I'm a web developer student graduating in April 2026, fascinated by how digital experiences come to life through design, content, and code. I'm eager to contribute to the creativity and impact of a collaborative agency team.
+              I'm a web developer student graduating in April 2026, fascinated by how digital experiences come to life through design, content, and code. I'm eager to contribute to the creativity and impact of a collaborative team.
       </p>
 
         {/* Buttons */}
